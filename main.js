@@ -2,7 +2,6 @@ import puppeteer from 'puppeteer';
 
 const app = await puppeteer.launch({
     args: [
-        '--window-size=1280,720',
         '--disable-gpu',
         '--disable-dev-shm-usage',
         '--disable-setuid-sandbox',
@@ -14,11 +13,12 @@ const app = await puppeteer.launch({
         '--proxy-bypass-list=*',
         `--user-data-dir=${process.cwd()}/data`,
     ],
-    headless: false,
     defaultViewport: {
-        width: 1280,
-        height: 720,
-}});
+        width: 1920,
+        height: 1080,
+    },
+    headless: false,
+});
 
 const page = (await app.pages())[0];
 
@@ -30,7 +30,7 @@ for (;;) {
     for (const item of grid) {
         const itemName = await item.$eval('.fs_h4.jp_serif > span', e => e.textContent);
         if (itemName === 'home circle') {
-            item.click();
+            await item.$eval('a', e => e.click());
             flag = true;
         }
     }
@@ -38,11 +38,13 @@ for (;;) {
         break;
     }
     await new Promise(r => setTimeout(r, 1000));
-    await page.evaluate(() => {
-        document.querySelector("#__layout > div > div.inner > div > div.contents_wrap > main > article > section.cols2_wrap.bb_section > div.col2 > div > span > div.form_color_size > ul > li:nth-child(4) > dl > dd > button").click();
-    });
 }
-// await page.hoge
-// await page.close();
-// await app.close();
-
+await page.waitForNavigation({ waitUntil: ['networkidle2'] });
+const list = await page.$$('.color_size_list.item-block > li[data-watch-target]');
+for (const element of list) {
+    // const type = (await (await (await element.$('figcaption')).getProperty('textContent')).jsonValue()).trim();
+    const type = await element.$eval('figcaption', e => e.textContent.trim());
+    if (type === 'gray') {
+        await element.$eval('button', e => setTimeout(() => e.click(), 1));
+    }
+}
