@@ -1,0 +1,58 @@
+{
+   "checksum": "cd4539381443bb56187a0197258f33f5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13318654360512138",
+            "date_last_used": "0",
+            "guid": "6de18f6a-154a-4ed7-9400-f431fa8025d6",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google",
+            "type": "url",
+            "url": "https://www.google.com/?hl=ja"
+         }, {
+            "date_added": "13318654342271627",
+            "date_last_used": "13318654364467644",
+            "guid": "a9b5a744-9faa-446c-b3d0-c921193b4ac1",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Fabric",
+            "type": "url",
+            "url": "https://www.mina-perhonen.jp/online_store/fabric/"
+         } ],
+         "date_added": "13318653818986160",
+         "date_last_used": "0",
+         "date_modified": "13318654363416627",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "ブックマーク バー",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13318653818986165",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "その他のブックマーク",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13318653818986167",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "モバイルのブックマーク",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

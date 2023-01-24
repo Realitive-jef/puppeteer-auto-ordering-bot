@@ -29,9 +29,11 @@ for (;;) {
     const grid = await page.$$('.col2_4_grid.pure-g > div.pure-u-1-2');
     for (const item of grid) {
         const itemName = await item.$eval('.fs_h4.jp_serif > span', e => e.textContent);
-        if (itemName === 'home circle') {
-            await item.$eval('a', e => e.click());
+        if (itemName === 'tambourine') {
+            await (await item.$('a')).click();
             flag = true;
+            console.log();
+            break;
         }
     }
     if (flag) {
@@ -39,12 +41,15 @@ for (;;) {
     }
     await new Promise(r => setTimeout(r, 1000));
 }
-await page.waitForNavigation({ waitUntil: ['networkidle2'] });
+await page.waitForNavigation({ waitUntil: 'networkidle0' });
+await page.waitForSelector('.color_size_list.item-block > li[data-watch-target]');
 const list = await page.$$('.color_size_list.item-block > li[data-watch-target]');
 for (const element of list) {
     // const type = (await (await (await element.$('figcaption')).getProperty('textContent')).jsonValue()).trim();
     const type = await element.$eval('figcaption', e => e.textContent.trim());
-    if (type === 'gray') {
-        await element.$eval('button', e => setTimeout(() => e.click(), 1));
+    if (type === 'light beige') {
+        console.log('type');
+        await (await element.$('button')).click({ delay: 1000 });
     }
 }
+await page.click('#add_to_cart_button');

@@ -1,0 +1,350 @@
+<!doctype html>
+  <html data-n-head-ssr lang="ja" data-n-head="lang">
+  <head data-n-head="">
+    <title data-n-head="true">Online Store - minä perhonen</title>
+    <meta data-n-head="true" charset="utf-8">
+    <meta data-n-head="true" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta data-n-head="true" name="keywords" content="ミナ ペルホネン, mina perhonen, ミナ, mina, 皆川明, ミナガワ アキラ, akira minagawa">
+    <link data-n-head="true" rel="schortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link data-n-head="true" rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <link data-n-head="true" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@1.0.1/build/pure-min.css">
+    <link data-n-head="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap">
+    <link data-n-head="true" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link data-n-head="true" rel="canonical" href="https://www.mina-perhonen.jp/online_store/cart?language=ja">
+    <script data-n-head="true" src="https://use.typekit.com/uhc8yws.js"></script>
+    <script data-n-head="true" src="/javascripts/typekit.js"></script>
+    <script data-n-head="true" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script data-n-head="true" src="/javascripts/ga.js"></script>
+    <script data-n-head="true" src="/javascripts/common.js"></script>
+    <script data-n-head="true" src="/javascripts/cart_form.js"></script>
+    <script data-n-head="true" src="/javascripts/cart_head_notice.js"></script>
+    <script data-n-head="true" src="/javascripts/pagetop.js"></script>
+    <link rel="stylesheet" href="/stylesheets/nuxt-app-20200218.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  </head>
+  <body data-n-head="">
+  <div data-server-rendered="true" id="__nuxt">
+      <div id="__layout">
+        <div class="wrap">
+          <header class="header">
+            <div class="inner">
+              <div class="header_mod">
+                <div class="header_menu_wrap">
+                  <a href="#" class="header_menu">
+                    <span class="header_menu_hm">
+                      <span>
+                      </span> <span>
+                      </span> <span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="header_logo_wrap">
+                  <a href="/" title="minä perhonen" class="header_logo"></a>
+                </div>
+                <div class="header_icon_wrap">
+                  <a href="/online_store/cart/?langhage=ja" class="header_icon __cart __in">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header><div class="layer"></div>
+          <div class="inner">
+            <div class="template_grid">
+              <div class="main_nav_wrap">
+                <nav>
+                  <ul class="main_nav">
+                    <li><a href="/fashion">FASHION</a></li>
+                    <li><a href="/textile">TEXTILE</a> <ul class="sub_nav">
+                        <li><a href="/textile/">season</a></li>
+                        <li><a href="/textile/name">name</a></li>
+                        <li><a href="/textile/category">category</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/life">LIFE</a> <ul class="sub_nav">
+                        <li><a href="/life/furniture">Furniture</a></li>
+                        <li><a href="/life/tableware">Tableware</a></li>
+                        <li><a href="/life/stationery">Stationery</a></li>
+                        <li><a href="/life/book">Book</a></li>
+                        <li><a href="/life/others">Others</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="main_nav">
+                    <li class="nuxt-link-exact-active nuxt-link-active">
+                      <a href="/online_store/">ONLINE STORE</a>
+                      <ul class="sub_nav _mb_15">
+                        <li><a href="/online_store/gifts/">Gifts</a></li>
+                        <li><a href="/online_store/fashion/">Fashion</a></li>
+                        <li><a href="/online_store/life/">Life</a></li>
+                        <li><a href="/online_store/fabric/">Fabric</a></li>
+                        <li><a href="/online_store/mens/">Men’s</a></li>
+                        <li><a href="/online_store/kids_baby/">Kids &amp; Baby</a></li>
+                        <li><a href="/online_store/vintage/">Arts &amp; Vintage</a></li>
+                      </ul>
+                      <ul class="ex_nav">
+                        <li>
+                          <a href="/online_store/cart?language=ja">お買いものかご</a>
+                        </li>
+                        <li>
+                          <a href="/online_store/customer?language=ja">
+                            マイページ
+                          </a>
+                        </li> <li class="">
+                          <a href="/online_store/guide/">ご利用案内</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="/store_information">STORE INFORMATION</a>
+                    </li> <li>
+                      <a href="/journal">JOURNAL</a>
+                    </li>
+                  </ul> <ul class="main_nav">
+                    <li>
+                      <a href="/news">NEWS</a>
+                    </li> <li>
+                      <a href="/about">ABOUT</a>
+                    </li> <li>
+                      <a href="/job">JOB OFFERS</a>
+                    </li> <li >
+                      <a href="/contact/">CONTACT</a>
+                    </li> <li>
+                      <a href="/online_store/cart?language=en">ENGLISH</a>
+                    </li> <li>
+                      <a href="https://www.instagram.com/mina_perhonen.jp/" target="_blank">INSTAGRAM</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="contents_wrap">
+                <main class="contents">
+                  <article >
+                    <section>
+                      <link rel="stylesheet" media="screen" href="/stylesheets/exvalidation.css" />
+<script src="/javascripts/exvalidation.js"></script>
+<script src="/javascripts/exchecker-ja.js"></script>
+<script type="text/javascript">
+$(function() {
+  $("input[name='items[wrapping]']").change(function() {
+	document.forms['form_wrapping'].submit();
+  });
+  $("input[name='items[noshi]']").change(function() {
+	document.forms['form_noshi'].submit();
+  });
+  $("select[name='items[wrapping_count]']").change(function() {
+	document.forms['form_wrapping_count'].submit();
+  });
+  $("select[name='items[noshi_count]']").change(function() {
+	document.forms['form_noshi_count'].submit();
+  });
+
+  if($('#items_noshi_true').is(':checked')) {
+    $('#note').addClass('chkrequired');
+  }
+
+  $('#wrappingForm').exValidation({
+    customListener : 'change blur',
+    errFocus       : true,
+    stepValidation : true,
+    firstValidate  : true,
+    errMsgPrefix   : '',
+    errInsertPos   : 'after',
+    errPosition    : 'fixed',
+    errTipCloseBtn : false
+  });
+});
+</script>
+
+<div class="os_cart_wrap">
+
+
+  <div class="head_notice_wrap"><!-- 新規要素 -->
+    <ul class="notice_list">
+      <li>
+        <dl class="notice_title_wrap">
+          <dt class="notice_title_txt">Online Storeより発送などご注意事項のお知らせ</dt>
+          <dd class="notice_title_icon_wrap"><span class="notice_title_icon"></span></dd>
+        </dl>
+        <div class="notice_body">
+          <p><br />■ご注文商品の発送について<br />現在、ご注文が大変混雑しております。ご注文ステータスが「出荷準備中」の場合、出荷作業へ進んでおります為、ご注文の同梱、ご住所・配送日時やご注文内容のご変更は承ることが出来かねますことをご了承くださいませ。また、発送までに最長3週間の日数を頂いている商品もございます。期間は商品ごとに異なり、各商品ページに記載しておりますので、ご注文前にご確認をお願い申し上げます。<br /><br />■年末年始の営業について<br />年内の発送は、12月23日（金）18：00のご注文までとさせていただきます。それ以降のご注文につきましては、1月5日（木）より順次発送いたします。お振込みでのご注文で、年内の発送をご希望のお客様は、12月23日（金）15：00までにご入金ください。それ以降のご入金となりますと1月5日（木）より順次発送となります。<br /><br />■ショッピングバッグの同封について<br />2020年7月1日（水）以降、ギフトお渡し用の手提げ袋の同封はございませんので、ご理解賜りますようお願い申し上げます。</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <h1 class="fs_h2">お買いものかご</h1>
+
+
+  <div class="cart_item_wrap">
+    <div class="cart_inner pure-g col1_2_grid __mb_non">
+      <div class="pure-u-1-2">
+        <div class="grid __mb_non">
+          <dl class="item_cart_dl">
+            <dt class="item_img"><img src="/api/item/thumbnail?sku=FC0420&w=540&h=540" alt=""></dt><!-- 新規要素 -->
+            <dd class="item_name">repo<br>ファブリック </dd>
+            <dd class="item_remove"><a href="/online_store/cart/remove?id=53994" class="fs_btn jp_ss"><strong>削除</strong><span class="icon_close"></a></dd>
+          </dl>
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="grid __mb_non">
+          <dl class="item_cart_dl __pc_block">
+            <dt class="item_spec">
+              <div class="item_size">サイズ：144</div>
+              <div class="item_color">カラー：green</div>
+              <div class="item_price">単価：
+                ¥25,300/100cm
+              </div>
+              <!-- <div class="price">価格：¥25,300</div> -->
+            </dt>
+            <dd class="item_num">
+              <div class="item_num_label">数量：</div>
+              <div class="form_select_wrap">
+                <div class="form_select fs_btn en_ss">
+                  <div class="form_select_label">
+                    <div class="form_select_label_inner">1</div>
+                  </div>
+                  <form method="get" action="/online_store/cart/update" name="form_53994">
+                    <input type="hidden" name="items[id]" value="53994" />
+                    <select name="items[quantity]" onchange="document.forms['form_53994'].submit()"><option value="10" selected="yes">100cm</option><option value="15">150cm</option><option value="20">200cm</option><option value="25">250cm</option><option value="30">300cm</option><option value="35">350cm</option><option value="40">400cm</option><option value="45">450cm</option><option value="50">500cm</option><option value="55">550cm</option><option value="60">600cm</option><option value="65">650cm</option><option value="70">700cm</option><option value="75">750cm</option><option value="80">800cm</option><option value="85">850cm</option><option value="90">900cm</option><option value="95">950cm</option><option value="100">1000cm</option><option value="105">1050cm</option><option value="110">1100cm</option><option value="115">1150cm</option><option value="120">1200cm</option><option value="125">1250cm</option><option value="130">1300cm</option><option value="135">1350cm</option><option value="140">1400cm</option><option value="145">1450cm</option><option value="150">1500cm</option><option value="155">1550cm</option><option value="160">1600cm</option><option value="165">1650cm</option><option value="170">1700cm</option><option value="175">1750cm</option><option value="180">1800cm</option><option value="185">1850cm</option><option value="190">1900cm</option></select>
+                  </form>
+                </div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cart_item_wrap">
+    <div class="cart_inner pure-g col1_2_grid __mb_non">
+      <div class="pure-u-1-2">
+        <div class="grid __mb_non">
+          <dl class="item_cart_dl">
+            <dt class="item_img"><img src="/api/item/thumbnail?sku=FC0417&w=540&h=540" alt=""></dt><!-- 新規要素 -->
+            <dd class="item_name">sometimes lucky<br>ファブリック </dd>
+            <dd class="item_remove"><a href="/online_store/cart/remove?id=48662" class="fs_btn jp_ss"><strong>削除</strong><span class="icon_close"></a></dd>
+          </dl>
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="grid __mb_non">
+          <dl class="item_cart_dl __pc_block">
+            <dt class="item_spec">
+              <div class="item_size">サイズ：155</div>
+              <div class="item_color">カラー：khaki</div>
+              <div class="item_price">単価：
+                ¥22,000/100cm
+              </div>
+              <!-- <div class="price">価格：¥22,000</div> -->
+            </dt>
+            <dd class="item_num">
+              <div class="item_num_label">数量：</div>
+              <div class="form_select_wrap">
+                <div class="form_select fs_btn en_ss">
+                  <div class="form_select_label">
+                    <div class="form_select_label_inner">1</div>
+                  </div>
+                  <form method="get" action="/online_store/cart/update" name="form_48662">
+                    <input type="hidden" name="items[id]" value="48662" />
+                    <select name="items[quantity]" onchange="document.forms['form_48662'].submit()"><option value="10" selected="yes">100cm</option><option value="15">150cm</option><option value="20">200cm</option><option value="25">250cm</option><option value="30">300cm</option><option value="35">350cm</option><option value="40">400cm</option><option value="45">450cm</option><option value="50">500cm</option><option value="55">550cm</option><option value="60">600cm</option><option value="65">650cm</option><option value="70">700cm</option><option value="75">750cm</option><option value="80">800cm</option><option value="85">850cm</option><option value="90">900cm</option><option value="95">950cm</option><option value="100">1000cm</option><option value="105">1050cm</option><option value="110">1100cm</option><option value="115">1150cm</option><option value="120">1200cm</option><option value="125">1250cm</option><option value="130">1300cm</option><option value="135">1350cm</option><option value="140">1400cm</option><option value="145">1450cm</option><option value="150">1500cm</option><option value="155">1550cm</option><option value="160">1600cm</option><option value="165">1650cm</option><option value="170">1700cm</option><option value="175">1750cm</option><option value="180">1800cm</option><option value="185">1850cm</option><option value="190">1900cm</option><option value="195">1950cm</option><option value="200">2000cm</option><option value="205">2050cm</option><option value="210">2100cm</option><option value="215">2150cm</option><option value="220">2200cm</option><option value="225">2250cm</option><option value="230">2300cm</option><option value="235">2350cm</option><option value="240">2400cm</option></select>
+                  </form>
+                </div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cart_item_wrap">
+    <div class="cart_inner pure-g col1_2_grid __mb_non">
+      <div class="pure-u-1-2">
+        <div class="grid __mb_non">
+          <dl class="item_cart_dl">
+            <dt class="item_img"><img src="/api/item/thumbnail?sku=FC0435&w=540&h=540" alt=""></dt><!-- 新規要素 -->
+            <dd class="item_name">tour<br>ファブリック </dd>
+            <dd class="item_remove"><a href="/online_store/cart/remove?id=50541" class="fs_btn jp_ss"><strong>削除</strong><span class="icon_close"></a></dd>
+          </dl>
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="grid __mb_non">
+          <dl class="item_cart_dl __pc_block">
+            <dt class="item_spec">
+              <div class="item_size">サイズ：149</div>
+              <div class="item_color">カラー：navy</div>
+              <div class="item_price">単価：
+                ¥15,400/100cm
+              </div>
+              <!-- <div class="price">価格：¥15,400</div> -->
+            </dt>
+            <dd class="item_num">
+              <div class="item_num_label">数量：</div>
+              <div class="form_select_wrap">
+                <div class="form_select fs_btn en_ss">
+                  <div class="form_select_label">
+                    <div class="form_select_label_inner">1</div>
+                  </div>
+                  <form method="get" action="/online_store/cart/update" name="form_50541">
+                    <input type="hidden" name="items[id]" value="50541" />
+                    <select name="items[quantity]" onchange="document.forms['form_50541'].submit()"><option value="10" selected="yes">100cm</option><option value="15">150cm</option><option value="20">200cm</option><option value="25">250cm</option><option value="30">300cm</option><option value="35">350cm</option><option value="40">400cm</option><option value="45">450cm</option><option value="50">500cm</option><option value="55">550cm</option><option value="60">600cm</option><option value="65">650cm</option><option value="70">700cm</option><option value="75">750cm</option><option value="80">800cm</option><option value="85">850cm</option><option value="90">900cm</option><option value="95">950cm</option><option value="100">1000cm</option><option value="105">1050cm</option><option value="110">1100cm</option><option value="115">1150cm</option><option value="120">1200cm</option><option value="125">1250cm</option><option value="130">1300cm</option><option value="135">1350cm</option><option value="140">1400cm</option><option value="145">1450cm</option></select>
+                  </form>
+                </div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <form id="wrappingForm" action="/online_store/order" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <div class="cart_price_wrap">
+      送料　<span class="currency">¥0</span>
+    </div>
+    <div class="cart_total_price_wrap">
+      合計 <span class="totalPrice currency">¥62,700</span>
+    </div>
+
+    <div class="notice_wrap">
+      <ul class="notice_list">
+        <li>tour ファブリック を 100cm、かごへ入れました。</li>
+      </ul>
+          <ol id="fabricNotice" class="notice_list">
+    <li>インテリアファブリックはご希望メーター数に合わせてカット致します為、イメージの相違・ご注文違い等、お客様のご都合によるキャンセル・変更がお受けできません。ご注文内容に間違いがないか、再度ご確認ください。</li>
+    <li>表示は100㎝の価格です。100㎝から、50㎝単位でのご注文を承ります。</li>
+    <li>カットする箇所により、柄の出方が異なる場合がございます。</li>
+    <li>カット売りとさせて頂いておりますのでご希望メーター数のご用意がなくなる場合がございます。その際は改めまして、弊社よりご連絡させて頂きます。</li>
+  </ol>
+
+    </div>
+
+    <ul class="cart_pagenavi">
+      <li><input type="submit" name="commit" value="ご注文手続きへ" class="btn btn_line _txt_jp_ss bg_yellow pd_m" data-disable-with="ご注文手続きへ" /></li>
+  	  <li><a href="/online_store/" class="btn btn_line _txt_jp_ss pd_m">買い物をつづける</a></li>
+    </ul>
+
+</form></div>
+
+                    </section>
+                  </article>
+                </main>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="inner">
+              <div>©2023 MINA Co., Ltd. All Rights Reserved.</div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
